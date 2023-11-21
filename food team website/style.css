@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* header start */
+
+.panel {
+    margin-top: 20px;
+    /* height: 40px;
+    width: 200px; */
+
+
+}
+
+.title1 {
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.title2 h1 {
+    width: max-content;
+    font-size: 43px;
+    position: relative;
+    margin: 25px auto;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+.title2 {
+    margin-top: -20px;
+}
+
+.title3 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+
+/* header finish */
+
+
+
+/* card start */
+
+.card-container {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #f7f7f7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+    flex-wrap: wrap;
+    margin-top: -89px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-section .card i {
+    font-size: 27px;
+    color: rgb(198, 40, 40);
+    padding-bottom: 2rem;
+}
+
+
+.content-section .card {
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.content-section .card img {
+    width: 100%;
+    height: 39vh;
+}
+
+.content-section .card h2 {
+    margin: 15px 0px;
+    font-size: 25px;
+    color: rgb(198, 40, 40);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-section .card p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+/* card end */
+
+
+/* about section */
+
+
+.about{
+    background-color: #f5f4f4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+
+}
+.about .head{
+    margin-left: 100px;
+    width: 55%;
+    height: auto;
+
+}
+
+
+.about .head h1{
+    color: rgb(198, 40, 40);
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+.about .head h2{
+    margin-top: 18px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.about .head p{
+    margin-top: 20px;
+}
+
+.contact{
+    margin-left: 100px;
+    width: 55%;
+    height: auto;
+justify-content: center;
+align-items: center;
+}
+
+table{
+margin-top: 40px;
+width: 100%;
+height: 50px;  
+border: 3px solid black;
+border-collapse: collapse;
+}
+
+.contact th i{
+    color: red;
+    padding-right: 15px;
+    font-size: 2rem;
+    
+}
+
+.input-main{
+    width: 26%;
+    height: 290px;
+    /* border: 3px solid black; */
+    background-color: white;
+    /* justify-content: center; */
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+   position: relative;
+   margin-top: -24rem;
+   margin-left: 62rem;
+  display: flex;
+  flex-direction: column; 
+  justify-content:space-around;
+}
+
+
+.input-person select{
+    width: 40%;
+    height: 32px;
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(104, 93, 93);
+
+}
+
+.contact{
+    margin-bottom: 3rem;
+}
+.phone{
+    border-left: 3px solid black;
+}
+
+input{
+   text-align: center;
+    width: 40%;
+    height: auto;
+    padding: 4px;
+    margin: 7px;
+    box-shadow: 1px 2px 2px rgb(104, 93, 93);
+
+}
+
+.input-date button{
+border-radius: 5px;
+background-color: red;
+color: #f5f4f4;
+height: 32px;
+width:100px;
+}
